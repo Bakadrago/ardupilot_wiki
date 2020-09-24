@@ -170,9 +170,12 @@ First launch AirSim, after that launch the ArduPilot SITL using
     export PATH=$PATH:$HOME/ardupilot/Tools/autotest
     sim_vehicle.py -v ArduCopter -f airsim-copter --console --map
 
+![CygwinCommands](https://user-images.githubusercontent.com/69434515/94100533-7e72f500-fe60-11ea-8517-12eaf4977fc3.png)
 .. note::
 
     Initially, the editor will hang after pressing the Play button if the ArduPilot SITL hasn't been started (this is due to Lock-Step Scheduling). Run `sim_vehicle.py` and it should go back to normal.
+
+
 
 For closing, first stop the AirSim simulation by pressing the Stop button, then close ArduPilot.
 If ArduPilot is closed first, then UE hangs and you'll need to force close it.
