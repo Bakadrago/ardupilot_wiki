@@ -165,6 +165,7 @@ For using ArduCopter, the settings are as follows-
 First launch AirSim, after that launch the ArduPilot SITL using
 
 ::
+
     cd ardupilot/ArduCopter
     export PATH=$PATH:$HOME/ardupilot/Tools/autotest
     sim_vehicle.py -v ArduCopter -f airsim-copter --console --map
