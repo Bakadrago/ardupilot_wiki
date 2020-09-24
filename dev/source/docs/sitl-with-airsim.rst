@@ -174,6 +174,8 @@ First launch AirSim, after that launch the ArduPilot SITL using
 .. note::
 
     Initially, the editor will hang after pressing the Play button if the ArduPilot SITL hasn't been started (this is due to Lock-Step Scheduling). Run `sim_vehicle.py` and it should go back to normal.
+
+::
     
 ![Image of Epic Games Launcher](https://user-images.githubusercontent.com/69434515/89849370-f6d86c00-dbba-11ea-853f-b83dd688f2f6.PNG)
 
