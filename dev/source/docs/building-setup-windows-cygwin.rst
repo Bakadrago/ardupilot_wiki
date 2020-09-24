@@ -132,6 +132,12 @@ Set up directories/paths and extra packages in Cygwin
     ln -s /usr/bin/pip3.6 /usr/bin/pip
     pip install empy pyserial pymavlink
 
+
+Install Git (*Needed to download ArduPilot Source)
+-----------------------------------------------------
+
+#. To install Git on Windows go to https://gitforwindows.org/
+
 Download ArduPilot Source
 =========================
 
